@@ -1,4 +1,4 @@
-# hw3, uhstack. Due date: Monday 10/22 6 p.m. 
+# hw3, uhstack. Due date: Saturday 10/22 6 p.m. 
 
 You will create a C++ program that will evaluate math operations (using stacks).
 
