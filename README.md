@@ -54,7 +54,6 @@ What to expect in the input file:
     * `total` indicates that we have are ready to calculate the total for the customer. Your program will evaluate the math expression and it will output the result of the calculation.
     * `open` indicates that a customer has a shopping bag, which is analogous to a left parenthesis `(` in mathematics. The third field will always be `bag`
     * `close` indicates that a customer has completed placing items inside of a shopping bag, which is analogous to a right parenthesis `)` in mathematics. The third field will always be `bag`
-    * `price` indicates the price of a product 
     * `discount%` indicates the percentage of a discount to be applied to the previous math expression.
 
    The order matters because otherwise the math expression would be calculated in an unpredictable way.
@@ -81,6 +80,7 @@ The output of your program should not have empty lines or comments.
 * Each input file can fit in main memory (not larger than 10kb).
 * Numbers are always integers (no decimals, no decimal point).
 * The precedence of `times` is the same as that of `discount%`
+* If you choose to do your stack data structures via an underlying array, you can assume that an array of size 200 will be sufficient
 
 ## Requirements
 
